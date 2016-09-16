@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#afafaf"
+    tools:context="com.tl.pro.myapplication.FirstActivity"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_first_tv"
+        android:textSize="28sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_first_intent_tv"
+        android:textSize="28sp"
+        android:layout_below="@id/id_first_tv"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="start second activity"
+        android:id="@+id/id_button_first"
+        android:layout_centerInParent="true"
+        android:textSize="20sp"
+    />
+
+</RelativeLayout>
